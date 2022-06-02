@@ -27,14 +27,5 @@
 #   }
 # }
 
-# Baseado na input do usuário, retornar para ele o maior, menor e o preço atual do ativo que foi digitado
-
-#  libs para fazer o sistema: requests
-
-
-# TODO: fazer a primeira chamada na api utilizando a url de exemplo e printando o retorno, qualquer moeda disponível na api
-
-
-# 1. Utilizar uma função para bater na api, dentro dessa func, chamar o requests e printar o resultado
 
 
