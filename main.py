@@ -27,5 +27,27 @@
 #   }
 # }
 
+#dicionario = {"high": "147253.00000000",    "low": "137000.00000000", "vol": "74.05813683"}
+#saber o que tem dentro do dicionário
+## dicionario["low"] // dicionario["last"]
+#adicionar elemento dentro do dicionario
+##dicionario["adicionar"] = "0000"
+#substituir elemento dentro do dicionário
+##dicionario["adicionar"]= "0002"
+#print(dicionario)
+#dic_teste={}
+#dic_teste['A'] = '1'
+#dic_teste['B'] = '2'
+#dic_teste['C'] = '3'
+#print(dic_teste)
+#print(dic_teste['B'])
+#print(dic_teste.get('C'))
+
+## === Arquivo TXT (Manipulação) === ##
+
+## para acrescentar informação: 'a' (apendd)
+#with open('arquivo.txt', 'a') as f:
+#    f.write(apicoins())
+
 
 

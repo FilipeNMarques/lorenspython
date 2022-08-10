@@ -14,19 +14,19 @@
 
 Lidando com dicionários
 
-- [ ] Pesquisar sobre o que é um dicinário e como faz para acessar os elementos dentro dele.
+- [X] Pesquisar sobre o que é um dicinário e como faz para acessar os elementos dentro dele.
 - [ ] Apagar as informações do `arquivo.txt` e deixar ele limpo para receber a nova estrutura
-- [ ] Entender como que faz para escrver no arquivo sem apagar o que já existe
-- [ ] Olhar na doc da api como que faz para chamar outras moedas, não só o btc como está agora
-- [ ] Refatorar a func que faz a chamada na api para receber um parametro: `code` que é será o código da moeda desejada
-- [ ] Tratar o retorno da api para utilizar só os dados que será salvo no arquivo
-  - [ ] Pesquisar e entender como que faz iteração nos dicionaários
-- [ ] Pesquisar e entender o que são listas
-- [ ] Pesquisar e entender como iterar uma lista
-- [ ] Pesquisar e entender como acessar elementos dentro de uma lista
-- [ ] Escrever no arquivo a nova estrutura de dados:
+- [x ] Entender como que faz para escrver no arquivo sem apagar o que já existe
+- [x ] Olhar na doc da api como que faz para chamar outras moedas, não só o btc como está agora
+- [x ] Refatorar a func que faz a chamada na api para receber um parametro: `code` que é será o código da moeda desejada
+- [ x] Tratar o retorno da api para utilizar só os dados que será salvo no arquivo
+  - [x] Pesquisar e entender como que faz iteração nos dicionaários
+- [x] Pesquisar e entender o que são listas
+- [x] Pesquisar e entender como iterar uma lista
+- [x] Pesquisar e entender como acessar elementos dentro de uma lista
+- [ x] Escrever no arquivo a nova estrutura de dados:
   - Criar um dicionário com uma propriedade `criptos` que será uma lista de dicionários 
-- [ ]  Salvando os dados na lista de criptos:
+- [x ]  Salvando os dados na lista de criptos:
     - Com os dados retornados da api, acesse o dicionário e salve apenas os elementos:
         ``"<codigo que foi utilizado na funcao de chamar a api>": {
          "high": "132646.99993000",
@@ -34,7 +34,7 @@ Lidando com dicionários
          "vol": "110.72929985",
          "last": "124699.99357043",
          "date": 1658408448 }``
-- [ ] Fazer uma função que retorne todas as criptos dentro da lista da seguinte forma:
+- [ x ] Fazer uma função que retorne todas as criptos dentro da lista da seguinte forma:
 {"data": "dia/mes/ano", "ultimo_preco": "\<dado>", "alta": "\<dado>", "baixa": "\<dado>", "volume": "\<dado>"}
 
   - [ ] Se não tiver nenhuma cripto na lista retornar: {"message": "Sem criptos na sua carteira"} 
